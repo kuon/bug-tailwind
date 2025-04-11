@@ -2,7 +2,7 @@
 
 watch: deps
 	npx @tailwindcss/cli \
-		-i assets/src/app.css \
+		-i assets/css/app.css \
 		-o dist/app.css \
 		--watch
 
@@ -17,4 +17,4 @@ assets/node_modules:
 .PHONY: touch
 
 touch:
-	touch assets/src/app.css
+	touch assets/css/app.css

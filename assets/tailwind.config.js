@@ -2,7 +2,7 @@ module.exports = {
     content: {
         relative: true,
         files: [
-            "src/*.html",
+            "html/*.html",
         ],
     },
 }

@@ -1,7 +1,6 @@
 @import "tailwindcss" source(none);
 @config "../tailwind.config.js";
 
-
 @layer base {
     button {
         @apply focus:outline-hidden;
